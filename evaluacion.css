@@ -1,0 +1,125 @@
+header {
+    background-color: #5688c9;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.menu {
+    background-color: #f8fafa;
+    color: rgb(247, 240, 240);
+    padding: 10px;
+    text-align: center;
+}
+.menu a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+}
+.menu__turismo{
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Caprasimo', cursiva;
+    text-align: justify;
+    margin-top: 100px;
+    padding: 5px 6px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 45px;
+    text-align: center;
+}
+.menu__turismo:hover{
+    color: #1f92a1;
+}
+.menu__turismo:active{
+    background-color: white;
+}
+.contenido {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.caja__madre
+.texto__h2{
+    font-size: 32px;
+    font-family: 'Caprasimo', cursiva;
+    text-align: center;
+    transition: 0.5s;
+}
+.caja__madre:hover .texto__h2{
+    transform: scale(1.2);
+}
+.texto__tiempo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.imgs__tiempos
+.img__tiempo{
+    width: 122px;
+    height: 90px;
+    margin-right: 70px;
+    transition: 0.5s;
+}
+.imgs__tiempos:hover .img__tiempo{
+    transform: scale(1.2);
+}
+.img__tuviaje{
+    width: 250px;
+    height: 250px;
+}
+.img__logo{
+    width: 100px;
+    height: 50px;
+    margin-left: -500px;
+}
+.img__quehacer{
+    width: 800px;
+    height: 500px;
+    border-radius: 35px;
+    padding: 10px;
+}
+.img__infturismo{
+    width: 700px;
+    height: 450px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.body1{
+    display: flex;
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+.body2{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.item{
+    width: 48%;
+}
+.contenido {
+    width: 1400px;
+    margin: 10px;
+    padding: 50px;
+    border: 1px;
+    color: white;
+    list-style: none;
+    background-color: #5688c9;
+    
+}
+.texto{
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(247, 245, 245);
+    text-align: justify;
+    padding: 50px;
+}
